@@ -1,0 +1,11 @@
+wifi adapter commands
+apt install dkms git
+apt install build-essential libelf-dev linux-headers-$(uname -r)
+apt install build-essential libelf-dev linux-headers-$(uname -r) --fix-broken
+apt install build-essential libelf-dev linux-headers-$(uname -r) --fix-missing
+apt install realtek-rtl88xxau-dkms
+apt install build-essential libelf-dev linux-headers-$(uname -r)
+apt install build-essential libelf-dev linux-headers-$(uname -r) --fix-missing
+apt install build-essential libelf-dev linux-headers-$(uname -r) --fix-broken
+
+if by any chance these commands are not working at first time then repeat all these commands 2-3 times wifi driver will definitely installed.
